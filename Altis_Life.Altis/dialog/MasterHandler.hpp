@@ -30,4 +30,4 @@
 #include "newsStation.hpp"
 #include "gpsSelection.hpp"
 #include "statusBar.hpp"
-#include "revoke_license.h"
+#include "revoke_license.hpp"
