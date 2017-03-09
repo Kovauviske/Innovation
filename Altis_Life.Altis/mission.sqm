@@ -8,7 +8,7 @@ class EditorData
 	toggles=66;
 	class ItemIDProvider
 	{
-		nextID=8412;
+		nextID=8414;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=140;
+		nextID=142;
 	};
 	class Camera
 	{
-		pos[]={15496.658,12.450773,15762.705};
-		dir[]={0.91895562,-0.32109529,0.22899407};
-		up[]={0.31157422,0.94704473,0.077641159};
-		aside[]={0.24179853,1.1688098e-007,-0.97033727};
+		pos[]={22689.539,25,13716.33};
+		dir[]={0,-0.70710683,0.70710683};
+		up[]={0,0.70710677,0.70710677};
+		aside[]={0.99999994,0,-0};
 	};
 };
 binarizationWanted=0;
@@ -396,24 +396,6 @@ class CustomAttributes
 		name="Multiplayer";
 		class Attribute0
 		{
-			property="RespawnTemplates";
-			expression="true";
-			class Value
-			{
-				class data
-				{
-					class type
-					{
-						type[]=
-						{
-							"ARRAY"
-						};
-					};
-				};
-			};
-		};
-		class Attribute1
-		{
 			property="RespawnButton";
 			expression="true";
 			class Value
@@ -428,6 +410,24 @@ class CustomAttributes
 						};
 					};
 					value=1;
+				};
+			};
+		};
+		class Attribute1
+		{
+			property="RespawnTemplates";
+			expression="true";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"ARRAY"
+						};
+					};
 				};
 			};
 		};
@@ -1160,13 +1160,14 @@ class Mission
 		class Item66
 		{
 			dataType="Marker";
-			position[]={14327.465,18.488745,17427.523};
+			position[]={15514.338,-1.4629412e-035,15767.081};
 			name="Dealer_1_4";
-			text="@STR_MAR_Drug_Dealer";
+			text="Traficante Beira Mar";
 			type="mil_dot";
 			colorName="ColorOrange";
-			angle=302.06683;
+			angle=302.06696;
 			id=88;
+			atlOffset=10.254632;
 		};
 		class Item67
 		{
@@ -2417,6 +2418,7 @@ class Mission
 				angles[]={0,3.0901928,6.2826972};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 				skill=0.60000002;
@@ -2425,7 +2427,6 @@ class Mission
 			};
 			id=282;
 			type="Land_CashDesk_F";
-			atlOffset=1.1842289;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -3049,6 +3050,7 @@ class Mission
 				angles[]={0,2.3506639,0};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 				skill=0.60000002;
@@ -3057,7 +3059,6 @@ class Mission
 			};
 			id=544;
 			type="Land_CashDesk_F";
-			atlOffset=0.47982728;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -4382,7 +4383,6 @@ class Mission
 			};
 			id=746;
 			type="Land_CashDesk_F";
-			atlOffset=0.20866203;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -4416,6 +4416,7 @@ class Mission
 				angles[]={0,2.7419298,0};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 				skill=0.60000002;
@@ -4423,7 +4424,6 @@ class Mission
 			};
 			id=747;
 			type="Land_CashDesk_F";
-			atlOffset=0.56286049;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -4629,7 +4629,6 @@ class Mission
 			};
 			id=752;
 			type="Land_CashDesk_F";
-			atlOffset=0.18852997;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -10686,7 +10685,7 @@ class Mission
 					};
 					id=967;
 					type="C_man_polo_6_F";
-					atlOffset=14.857;
+					atlOffset=14.856999;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -11294,6 +11293,7 @@ class Mission
 						angles[]={0,5.2196856,0};
 					};
 					side="Civilian";
+					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
@@ -11302,7 +11302,6 @@ class Mission
 					};
 					id=984;
 					type="C_man_1";
-					atlOffset=0.45298624;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -11345,7 +11344,6 @@ class Mission
 					};
 					id=985;
 					type="C_man_polo_3_F";
-					atlOffset=0.14582825;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -12199,6 +12197,7 @@ class Mission
 						angles[]={0,0.0679636,6.2826972};
 					};
 					side="Civilian";
+					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
@@ -12207,7 +12206,6 @@ class Mission
 					};
 					id=1008;
 					type="C_man_p_fugitive_F_asia";
-					atlOffset=1.2672386;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -13726,7 +13724,6 @@ class Mission
 					};
 					id=1065;
 					type="C_Nikos_aged";
-					atlOffset=0.22426224;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -13779,6 +13776,7 @@ class Mission
 						angles[]={0,6.1261058,0};
 					};
 					side="Civilian";
+					flags=4;
 					class Attributes
 					{
 						init="this enableSimulation false; this allowDamage false; this addAction[localize""STR_MAR_Station_Shop"",life_fnc_weaponShopMenu,""f_station_store""];this addAction[localize""STR_Shop_Station_Coffee"",life_fnc_virt_menu,""f_station_coffee""]; this addAction[""Roubar Posto de Gasolina"",life_fnc_robstore];";
@@ -13787,7 +13785,6 @@ class Mission
 					};
 					id=1067;
 					type="C_Nikos_aged";
-					atlOffset=0.57194901;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -14112,7 +14109,6 @@ class Mission
 					};
 					id=1077;
 					type="C_Nikos_aged";
-					atlOffset=0.19090271;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -17380,6 +17376,7 @@ class Mission
 			};
 			id=1391;
 			type="WaterPump_01_sand_F";
+			atlOffset=0.0014457703;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -17461,7 +17458,7 @@ class Mission
 			};
 			id=1393;
 			type="Land_cmp_Tower_F";
-			atlOffset=0.82475662;
+			atlOffset=0.82475281;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -17494,7 +17491,7 @@ class Mission
 			text="Envelhecimento de Bebidas";
 			type="mil_dot";
 			colorName="ColorGUER";
-			angle=267.20471;
+			angle=267.20468;
 			id=1394;
 			atlOffset=-42.313019;
 		};
@@ -17526,7 +17523,7 @@ class Mission
 			};
 			id=1396;
 			type="WaterPump_01_sand_F";
-			atlOffset=1.3342133;
+			atlOffset=1.3360977;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -56468,13 +56465,14 @@ class Mission
 		class Item1367
 		{
 			dataType="Marker";
-			position[]={22689.541,4.1249728,13741.33};
+			position[]={22689.539,-8.3812105e-021,13741.33};
 			name="Dealer_1_3";
-			text="@STR_MAR_Drug_Dealer";
+			text="Traficante Escobar";
 			type="mil_dot";
 			colorName="ColorOrange";
 			alpha=0;
 			id=2749;
+			atlOffset=-4.124929;
 		};
 		class Item1368
 		{
@@ -57650,7 +57648,7 @@ class Mission
 			position[]={14606.424,17.839428,16879.354};
 			name="car_g_6";
 			type="Empty";
-			angle=228.18478;
+			angle=228.18477;
 			id=2984;
 		};
 		class Item1404
@@ -78474,7 +78472,7 @@ class Mission
 				position[]={24336.355,7.8880734,18986.377};
 			};
 			side="Empty";
-			flags=5;
+			flags=1;
 			class Attributes
 			{
 				createAsSimpleObject=1;
@@ -78482,6 +78480,7 @@ class Mission
 			};
 			id=3757;
 			type="Land_AncientPillar_F";
+			atlOffset=0.98854804;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -89013,7 +89012,7 @@ class Mission
 			text="Morro do Zóio";
 			type="mil_triangle";
 			colorName="Color1_FD_F";
-			angle=259.94397;
+			angle=259.94394;
 			id=4171;
 			atlOffset=-109.45787;
 		};
@@ -106041,7 +106040,6 @@ class Mission
 				angles[]={0.0072670453,6.229003,6.277009};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 				skill=0.60000002;
@@ -106051,7 +106049,7 @@ class Mission
 			};
 			id=6522;
 			type="Land_Laptop_unfolded_F";
-			atlOffset=4.2915344e-006;
+			atlOffset=0.82198381;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -110573,7 +110571,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={23744.924,5.4711504,16221.639};
-			angle=0.80629331;
+			angle=0.80629325;
 			class Attributes
 			{
 				name="Autobahn_1_1_2_2_1";
@@ -126658,13 +126656,13 @@ class Mission
 		class Item3253
 		{
 			dataType="Marker";
-			position[]={16268.14,176708.19,19836.975};
+			position[]={16267.656,-444.37927,19836.502};
 			name="marker_272";
 			text="Campo de Maconha";
 			type="mil_dot";
 			colorName="ColorEAST";
 			id=8135;
-			atlOffset=176693.66;
+			atlOffset=-458.89987;
 		};
 		class Item3254
 		{
@@ -126737,6 +126735,7 @@ class Mission
 			};
 			id=8138;
 			type="WaterPump_01_forest_F";
+			atlOffset=-9.1552734e-005;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -127030,6 +127029,7 @@ class Mission
 			};
 			id=8158;
 			type="WaterPump_01_forest_F";
+			atlOffset=-0.0003824234;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -127181,7 +127181,7 @@ class Mission
 						angles[]={0.027070057,0.32044247,0};
 					};
 					side="Civilian";
-					flags=2;
+					flags=6;
 					class Attributes
 					{
 						skill=0.60000002;
@@ -127201,7 +127201,6 @@ class Mission
 					};
 					id=4333;
 					type="C_man_1";
-					atlOffset=0.49419403;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -127250,7 +127249,6 @@ class Mission
 			{
 			};
 			id=8163;
-			atlOffset=0.49419403;
 		};
 		class Item3273
 		{
@@ -127721,7 +127719,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={23605.576,14.132607,19946.531};
-			angle=0.96593904;
+			angle=0.96593899;
 			class Attributes
 			{
 				onActivation="gate2_2 animate [""Door_1_rot"", 1]";
@@ -131207,6 +131205,7 @@ class Mission
 			};
 			id=8406;
 			type="C_SUV_01_F";
+			atlOffset=-3.4332275e-005;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -131270,6 +131269,7 @@ class Mission
 			};
 			id=8407;
 			type="C_Heli_Light_01_civil_F";
+			atlOffset=0.0064983368;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -131379,14 +131379,18 @@ class Mission
 		class Item3471
 		{
 			dataType="Marker";
-			position[]={15520.784,-2.6095623e-017,15765.9};
-			name="Dealer_1_8";
-			text="Traficante Nandinho Beira Mar";
-			type="mil_dot";
-			colorName="ColorOrange";
-			angle=292.11401;
-			id=8411;
-			atlOffset=10.153935;
+			position[]={16267.659,0,19836.531};
+			name="weed_1";
+			markerType="ELLIPSE";
+			type="Empty";
+			colorName="ColorRed";
+			alpha=0.80328578;
+			fillName="DiagGrid";
+			a=50;
+			b=50;
+			angle=233.98099;
+			id=8413;
+			atlOffset=-14.519721;
 		};
 	};
 };
