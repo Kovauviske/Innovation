@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=162;
+		nextID=164;
 	};
 	class Camera
 	{
-		pos[]={5096.4302,1067.3147,13402.609};
-		dir[]={-0.096366182,-0.6245963,0.77500683};
-		up[]={-0.077070788,0.7809394,0.61982846};
-		aside[]={0.99237806,1.8393621e-007,0.123395};
+		pos[]={20772.41,89.895721,7123.4736};
+		dir[]={0.80186278,-0.29990608,0.51679647};
+		up[]={0.25208798,0.95396793,0.16246937};
+		aside[]={0.54173267,6.2427716e-009,-0.84055328};
 	};
 };
 binarizationWanted=0;
@@ -387,6 +387,24 @@ class CustomAttributes
 		name="Multiplayer";
 		class Attribute0
 		{
+			property="RespawnTemplates";
+			expression="true";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"ARRAY"
+						};
+					};
+				};
+			};
+		};
+		class Attribute1
+		{
 			property="RespawnButton";
 			expression="true";
 			class Value
@@ -401,24 +419,6 @@ class CustomAttributes
 						};
 					};
 					value=1;
-				};
-			};
-		};
-		class Attribute1
-		{
-			property="RespawnTemplates";
-			expression="true";
-			class Value
-			{
-				class data
-				{
-					class type
-					{
-						type[]=
-						{
-							"ARRAY"
-						};
-					};
 				};
 			};
 		};
@@ -1427,12 +1427,12 @@ class Mission
 		class Item93
 		{
 			dataType="Marker";
-			position[]={20839.164,12.665039,7264.1489};
+			position[]={20833.525,12.665039,7290.9849};
 			name="car_g_1";
 			type="Empty";
 			angle=146.60448;
 			id=143;
-			atlOffset=-15.227232;
+			atlOffset=-14.310141;
 		};
 		class Item94
 		{
@@ -12421,7 +12421,6 @@ class Mission
 					};
 					id=1025;
 					type="C_man_1";
-					atlOffset=0.00012207031;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -18882,22 +18881,22 @@ class Mission
 		class Item421
 		{
 			dataType="Marker";
-			position[]={21076.727,23.169922,7097.3696};
+			position[]={20786.957,23.169922,7229.1206};
 			name="civ_air_4";
 			type="Empty";
-			angle=13.209659;
+			angle=319.55334;
 			id=1623;
-			atlOffset=-3.1610832;
+			atlOffset=-5.9764767;
 		};
 		class Item422
 		{
 			dataType="Marker";
-			position[]={20796.287,23.186035,7234.2271};
+			position[]={20795.441,23.186035,7237.5938};
 			name="civ_air_3_1";
 			type="Empty";
-			angle=146.97678;
+			angle=51.442581;
 			id=1624;
-			atlOffset=-5.7911491;
+			atlOffset=-5.6629982;
 		};
 		class Item423
 		{
@@ -57356,7 +57355,7 @@ class Mission
 			position[]={14606.424,17.839428,16879.354};
 			name="car_g_6";
 			type="Empty";
-			angle=228.18459;
+			angle=228.18457;
 			id=2984;
 		};
 		class Item1395
@@ -90350,12 +90349,12 @@ class Mission
 		class Item2222
 		{
 			dataType="Marker";
-			position[]={20839.164,12.665039,7264.1489};
+			position[]={20833.525,12.665039,7290.9849};
 			name="car_g_4";
 			type="Empty";
 			angle=146.60448;
 			id=5888;
-			atlOffset=-15.227232;
+			atlOffset=-14.310141;
 		};
 		class Item2223
 		{
@@ -121130,7 +121129,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={23573.986,13.709767,19907.852};
-			angle=0.93249452;
+			angle=0.93249446;
 			class Attributes
 			{
 				onActivation="gate2_1 animate [""Door_1_rot"", 1]";
@@ -124905,7 +124904,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={3819.1738,13.509257,13475.068};
-			angle=0.93249446;
+			angle=0.9324944;
 			class Attributes
 			{
 				onActivation="gate2_3 animate [""Door_1_rot"", 1]";
@@ -124938,12 +124937,13 @@ class Mission
 			};
 			id=8422;
 			type="Land_BarGate_F";
+			atlOffset=9.5367432e-007;
 		};
 		class Item3313
 		{
 			dataType="Trigger";
 			position[]={3857.8044,15.35341,13514.877};
-			angle=0.93249446;
+			angle=0.9324944;
 			class Attributes
 			{
 				onActivation="gate2_4 animate [""Door_1_rot"", 1]";
