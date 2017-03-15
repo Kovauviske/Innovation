@@ -41,21 +41,21 @@ class CfgSpawnPoints {
             };
 
             class RebelN {
-                displayName = "Morro do Careca";
+                displayName = "Morro do Zóio";
                 spawnMarker = "Rebelop";
                 icon = "\a3\ui_f\data\map\MapControl\bunker_ca.paa";
                 conditions = "license_civ_rebel";
             };
 
             class MorumbiVIP {
-                displayName = "Morumbi VIP";
+                displayName = "Cidade VIP";
                 spawnMarker = "prem_spawn";
                 icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
                 conditions = "call life_donorlevel isEqualTo 1";
             };
 
             class RebelE {
-                displayName = "Morro do Alemão";
+                displayName = "Morro do Comando";
                 spawnMarker = "Rebelop_2";
                 icon = "\a3\ui_f\data\map\MapControl\bunker_ca.paa";
                 conditions = "license_civ_rebel";
@@ -101,21 +101,21 @@ class CfgSpawnPoints {
 
         class Medic {
             class Kavala {
-                displayName = "Hospital das Clinicas";
+                displayName = "Hospital de Kavala";
                 spawnMarker = "medic_spawn_1";
                 icon = "\a3\ui_f\data\map\MapControl\hospital_ca.paa";
                 conditions = "";
             };
 
             class Athira {
-                displayName = "Hospital Einstein";
+                displayName = "Hospital Central";
                 spawnMarker = "medic_spawn_2";
                 icon = "\a3\ui_f\data\map\MapControl\hospital_ca.paa";
                 conditions = "";
             };
 
             class Pyrgos {
-                displayName = "Hospital Samaritano";
+                displayName = "Hospital de Pyrgos";
                 spawnMarker = "medic_spawn_3";
                 icon = "\a3\ui_f\data\map\MapControl\hospital_ca.paa";
                 conditions = "";
