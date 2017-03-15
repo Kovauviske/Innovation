@@ -8,13 +8,13 @@ _onScreenTime = 5;
 sleep 2; //Wait in seconds before the credits start after player is in-game
 
 _role1 = "Bem-vindo ao nosso servidor.";
-_role1names = ["Equipe RockIn Altis"];
+_role1names = ["Equipe Inovation"];
 _role2 = "Editado por";
-_role2names = ["Dexter"];
+_role2names = ["Ramos, Pedro, Jason e KoVaUvIsKe"];
 _role3 = "Visite nosso facebook";
-_role3names = ["www.facebook.com/RockInAltisLife/"];
+_role3names = ["www.facebook.com/innovation/"];
 _role4 = "Entre no nosso Teamspeak:";
-_role4names = ["rockin.ts3amg.com"];
+_role4names = ["innovation.ts3amg.com"];
 _role5 = "Divirta-se e respeite nossas regras.";
 _role5names = [profileName];
 {
