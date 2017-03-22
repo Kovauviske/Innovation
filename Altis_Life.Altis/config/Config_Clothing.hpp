@@ -392,8 +392,10 @@ class Clothing {
         side = "cop";
         uniforms[] = {
             { "NONE", "Remove Uniform", 0, "" },
-            { "U_Rangemaster", "Cop Uniform", 25, "" },
-            { "U_B_CombatUniform_mcam_vest", "", 550, "call life_coplevel >= 2" }
+            { "U_Rangemaster", "Recruta", 25, "" },
+            { "U_B_CombatUniform_mcam_vest", "Graduado", 550, "call life_coplevel >= 2" },
+            { "U_B_CombatUniform_mcam_worn", "Oficial", 650, "call life_coplevel >= 3" },
+            { "U_B_CombatUniform_mcam", "GRPAE", 750, "call life_coplevel >= 13" }
         };
         headgear[] = {
             { "NONE", "Remove Hat", 0, "" },
