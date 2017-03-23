@@ -188,7 +188,6 @@ class CarShops {
         conditions = "";
         vehicles[] = {
             { "C_Offroad_01_F", "" },
-            { "C_SUV_01_F", "" },
             { "C_Hatchback_01_sport_F", "" },
             { "B_MRAP_01_F", "call life_coplevel >= 7" },
             { "B_MRAP_01_hmg_F", "call life_coplevel >= 11" }
@@ -421,8 +420,8 @@ class LifeCfgVehicles {
         conditions = "license_cop_cAir";
         price = 60000;
         textures[] = {
-            { "PM SP", "cop", {
-                "textures\Veiculos\Policiais\COP_GH_01.paa"
+            { "Policia", "cop", {
+                "textures\Veiculos\Policiais\Ghosthawk_1DPA_ext01_co.paa"
             }, "" }
         };
     };
@@ -570,8 +569,8 @@ class LifeCfgVehicles {
             { "SAMU", "med", {
                 "textures\Veiculos\Medicos\medic_offroad.paa"
             }, "" },
-            { "PM SP", "cop", {
-                "textures\Veiculos\Policiais\POLICE_OFF_SP.paa"
+            { "Policia", "cop", {
+                "textures\Veiculos\Policiais\Offroad_1DPA_ext_co.paa"
             }, "" }
         };
     };
@@ -717,7 +716,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
         price = 40000;
         textures[] = {
             { "GRPAE", "cop", {
-                "textures\Veiculos\Policiais\COP_HC_GRPAE.paa"
+                "textures\Veiculos\Policiais\Hellcat_1DPA_ext_co.paa"
             }, "" }
         };
     };
@@ -762,11 +761,8 @@ will modify the virtual space and the price of the vehicle, but other informatio
             { "SAMU", "med", {
                 "textures\Veiculos\Medicos\medic_hatchback.paa"
             }, "" },
-            { "Policia SP", "cop", {
-                "textures\Veiculos\Policiais\POLICE_HATCH_SP.paa"
-            }, "" },
-            { "Policia Federal", "cop", {
-                "textures\Veiculos\Policiais\POLICE_HATCH_FED.paa"
+            { "Policia", "cop", {
+                "textures\Veiculos\Policiais\Hatchback_1DPA_ext_co.paa"
             }, "" }
         };
     };
@@ -891,9 +887,6 @@ will modify the virtual space and the price of the vehicle, but other informatio
             }, "" },
             { "SAMU", "med", {
                 "textures\Veiculos\Medicos\medic_SUV.paa"
-            }, "" },
-            { "PM SP", "cop", {
-                "textures\Veiculos\Policiais\SUV_PMSP.paa"
             }, "" }
         };
     };
@@ -932,8 +925,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
         price = 30000;
         textures[] = {
             { "PM SP", "cop", {
-                "textures\Veiculos\Policiais\HUNTER_PMSP.paa",
-                "textures\Veiculos\Policiais\cop_hunterback.paa"
+                "textures\Veiculos\Policiais\Hunter_1DPA_base_co.paa"
             }, "" }
         };
     };
@@ -954,14 +946,8 @@ will modify the virtual space and the price of the vehicle, but other informatio
         conditions = "license_civ_pilot || {license_cop_cAir} || {license_med_mAir}";
         price = 545000;
         textures[] = {
-            { "PM SP", "cop", {
-                "textures\Veiculos\Policiais\COP_LB_PM.paa"
-            }, "" },
-            { "Policia Federal", "cop", {
-                "textures\Veiculos\Policiais\COP_LB_FED.paa"
-            }, "" },
-            { "Policia Hibrido", "cop", {
-                "textures\Veiculos\Policiais\COP_LB_HIB.paa"
+            { "Policia", "cop", {
+                "textures\Veiculos\Policiais\Hummingbird_1DPA_ext_co.paa"
             }, "" },
             { "Civ Blue", "civ", {
                 "\a3\air_f\Heli_Light_01\Data\heli_light_01_ext_blue_co.paa"
