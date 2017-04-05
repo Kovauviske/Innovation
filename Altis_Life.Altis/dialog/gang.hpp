@@ -6,13 +6,13 @@ class Life_My_Gang_Diag {
     onLoad = "";
 
     class controlsBackground {
-        class Life_RscTitleBackground: Life_RscText {
-            colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", "(profilenamespace getvariable ['GUI_BCG_RGB_A',0.7])"};
+        class Life_RscTitleBackground: Life_RscPicture {
             idc = -1;
-            x = 0.1;
-            y = 0.2;
-            w = 0.6;
-            h = (1 / 25);
+            text = "textures\Itens\menu_innovation.paa";
+            x = 0;
+            y = -0.12;
+            w = 1;
+            h = 1.28;
         };
 
         class MainBackground: Life_RscText {
@@ -141,13 +141,13 @@ class Life_Create_Gang_Diag {
     onLoad = "[] spawn {waitUntil {!isNull (findDisplay 2520)}; ((findDisplay 2520) displayCtrl 2523) ctrlSetText format [localize ""STR_Gang_PriceTxt"",[(getNumber(missionConfigFile >> 'Life_Settings' >> 'gang_price'))] call life_fnc_numberText]};";
 
     class controlsBackground {
-        class Life_RscTitleBackground: Life_RscText {
-            colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", "(profilenamespace getvariable ['GUI_BCG_RGB_A',0.7])"};
+        class RscTitleBackground: Life_RscPicture {
             idc = -1;
-            x = 0.1;
-            y = 0.2;
-            w = 0.5;
-            h = (1 / 25);
+            text = "textures\Itens\menu_innovation.paa";
+            x = 0;
+            y = -0.12;
+            w = 1;
+            h = 1.28;
         };
 
         class MainBackground: Life_RscText {

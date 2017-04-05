@@ -6,13 +6,13 @@ class Life_key_management {
     onLoad = "[] spawn life_fnc_keyMenu;";
 
     class controlsBackground {
-        class Life_RscTitleBackground: Life_RscText {
-            colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", "(profilenamespace getvariable ['GUI_BCG_RGB_A',0.7])"};
+        class Life_RscTitleBackground: Life_RscPicture {
             idc = -1;
-            x = 0.1;
-            y = 0.2;
-            w = 0.6;
-            h = (1 / 25);
+            text = "textures\Itens\menu_innovation.paa";
+            x = 0;
+            y = -0.12;
+            w = 1;
+            h = 1.28;
         };
 
         class MainBackground: Life_RscText {
