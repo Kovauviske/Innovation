@@ -79,14 +79,14 @@ switch (playerSide) do
 				if (((_zone1 distance player < _zone1dis) || (_zone2 distance player < _zone2dis) || (_zone3 distance player < _zone3dis) || (_zone4 distance player < _zone4dis) || (_zone5 distance player < _zone5dis) || (_zone6 distance player < _zone6dis) || (_zone7 distance player < _zone7dis) || (_zone8 distance player < _zone8dis) || (_zone9 distance player < _zone9dis) || (_zone10 distance player < _zone10dis) || (_zone11 distance player < _zone11dis) || (_zone12 distance player < _zone12dis) || (_zone13 distance player < _zone13dis)) && (!_inArea)) then
 				{
 					_inArea = true;
-					hint parseText format["<t color='#00ff00'><t size='2'><t align='center'>Uh uh vai morrê!<br/><br/><t align='center'><t size='1'><t color='#ffffff'>%1",_enterText];
+					hint parseText format["<t color='#00ff00'><t size='2'><t align='center'>Cuidado! Você está entrando em uma área ilegal. Entre por sua conta e risco!<br/><br/><t align='center'><t size='1'><t color='#ffffff'>%1",_enterText];
 					player allowDamage true;
 					safezone = true;
 				};
 				if (((_zone1 distance player > _zone1dis) && (_zone2 distance player > _zone2dis) && (_zone3 distance player > _zone3dis) && (_zone4 distance player > _zone4dis) && (_zone5 distance player > _zone5dis) && (_zone6 distance player > _zone6dis) && (_zone7 distance player > _zone7dis) && (_zone8 distance player > _zone8dis) && (_zone9 distance player > _zone9dis) && (_zone10 distance player > _zone10dis) && (_zone11 distance player > _zone11dis) && (_zone12 distance player > _zone12dis) && (_zone13 distance player > _zone13dis)) && (_inArea)) then
 				{
 					_inArea = false;		
-					hint parseText format["<t color='#ffff00'><t size='2'><t align='center'>Deu sorte dessa vez.<br/><br/><t align='center'><t size='1'><t color='#ffffff'>%1",_leaveText];
+					hint parseText format["<t color='#ffff00'><t size='2'><t align='center'>Você saiu de uma área ilegal.<br/><br/><t align='center'><t size='1'><t color='#ffffff'>%1",_leaveText];
 					player allowDamage true;
 					safezone = false;
 				};
