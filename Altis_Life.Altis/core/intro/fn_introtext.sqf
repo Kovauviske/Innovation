@@ -8,7 +8,7 @@ _onScreenTime = 5;
 sleep 2; //Wait in seconds before the credits start after player is in-game
 
 _role1 = "Bem-vindo ao nosso servidor.";
-_role1names = ["Equipe Inovation"];
+_role1names = ["Equipe Innovation"];
 _role2 = "Editado por";
 _role2names = ["Ramos, Pedro, Jason e KoVaUvIsKe"];
 _role3 = "Visite nosso facebook";

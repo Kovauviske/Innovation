@@ -156,6 +156,14 @@ class VirtualShops {
         items[] = { "cocaine_processed", "heroin_processed", "marijuana", "metanfetamina", "LSD", "krokodil" };
     };
 
+    class oil {
+        name = "STR_Shops_Oil";
+        side = "civ";
+        license = "";
+        level[] = { "", "", -1, "" };
+        items[] = { "oil_processed", "pickaxe", "fuelFull" };
+    };
+    
     class fishmarket {
         name = "STR_Shops_FishMarket";
         side = "civ";
@@ -594,6 +602,27 @@ class VirtualItems {
     };
 
     //Mined Items
+    class oil_unprocessed {
+        variable = "oilUnprocessed";
+        displayName = "STR_Item_OilU";
+        weight = 7;
+        buyPrice = -1;
+        sellPrice = -1;
+        illegal = false;
+        edible = -1;
+        icon = "icons\ico_oilUnprocessed.paa";
+    };
+
+    class oil_processed {
+        variable = "oilProcessed";
+        displayName = "STR_Item_OilP";
+        weight = 6;
+        buyPrice = -1;
+        sellPrice = 3200;
+        illegal = false;
+        edible = -1;
+        icon = "icons\ico_oilProcessed.paa";
+    };
 
     class copper_unrefined {
         variable = "copperUnrefined";
