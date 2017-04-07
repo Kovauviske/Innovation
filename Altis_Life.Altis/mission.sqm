@@ -8,7 +8,7 @@ class EditorData
 	toggles=586;
 	class ItemIDProvider
 	{
-		nextID=16008;
+		nextID=16009;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=258;
+		nextID=260;
 	};
 	class Camera
 	{
-		pos[]={10344.17,134.03638,17996.211};
-		dir[]={-1.2363449e-007,-0.70710683,0.70710683};
-		up[]={-1.2363449e-007,0.70710683,0.70710683};
-		aside[]={1.0000001,0,1.7484558e-007};
+		pos[]={10509.621,136.46642,17736.387};
+		dir[]={-2.2254203e-006,-0.70710683,0.70710683};
+		up[]={-2.2254203e-006,0.70710677,0.70710677};
+		aside[]={0.99999994,0,3.1472202e-006};
 	};
 };
 binarizationWanted=0;
@@ -139,8 +139,8 @@ addons[]=
 	"A3_Structures_F_Items_Luggage",
 	"A3_Structures_F_Items_Valuables",
 	"A3_Structures_F_Mil_Barracks",
-	//"A3_Structures_F_Exp_Walls_Pipe",
-	//"A3_Structures_F_Exp_Walls_Railings",
+	"A3_Structures_F_Exp_Walls_Pipe",
+	"A3_Structures_F_Exp_Walls_Railings",
 	"A3_Structures_F_Dominants_Church",
 	"A3_Structures_F_Heli_Items_Sport",
 	"A3_Structures_F_Heli_Items_Airport",
@@ -478,6 +478,24 @@ class CustomAttributes
 		name="Multiplayer";
 		class Attribute0
 		{
+			property="RespawnTemplates";
+			expression="true";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"ARRAY"
+						};
+					};
+				};
+			};
+		};
+		class Attribute1
+		{
 			property="RespawnButton";
 			expression="true";
 			class Value
@@ -492,24 +510,6 @@ class CustomAttributes
 						};
 					};
 					value=1;
-				};
-			};
-		};
-		class Attribute1
-		{
-			property="RespawnTemplates";
-			expression="true";
-			class Value
-			{
-				class data
-				{
-					class type
-					{
-						type[]=
-						{
-							"ARRAY"
-						};
-					};
 				};
 			};
 		};
@@ -567,7 +567,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=7439;
+		items=7440;
 		class Item0
 		{
 			dataType="Marker";
@@ -74245,15 +74245,13 @@ class Mission
 		class Item1795
 		{
 			dataType="Marker";
-			position[]={10341.018,110.75948,17621.215};
+			position[]={10336.564,0,18067.85};
 			name="Rebelop";
-			text="@STR_MAR_Rebel_Outpost";
 			type="mil_triangle";
-			colorName="Color1_FD_F";
-			alpha=0;
-			angle=259.94421;
+			colorName="ColorRed";
+			angle=259.94397;
 			id=4165;
-			atlOffset=0.38311768;
+			atlOffset=-120.80573;
 		};
 		class Item1796
 		{
@@ -74269,7 +74267,7 @@ class Mission
 		{
 			dataType="Marker";
 			position[]={10344.17,0,18021.211};
-			name="reb_v_2";
+			name="reb_v_1_1";
 			type="Empty";
 			angle=154.64398;
 			id=4167;
@@ -74612,14 +74610,14 @@ class Mission
 		class Item1799
 		{
 			dataType="Marker";
-			position[]={10335.859,0,18067.883};
+			position[]={10336.521,0,18067.85};
 			name="9";
 			text="Morro da Maré";
 			type="mil_triangle";
 			colorName="Color1_FD_F";
 			angle=259.94394;
 			id=4171;
-			atlOffset=-120.84346;
+			atlOffset=-120.80853;
 		};
 		class Item1800
 		{
@@ -167831,7 +167829,7 @@ class Mission
 			};
 			id=13141;
 			type="Land_WavePowerPlant_F";
-			atlOffset=106.23866;
+			atlOffset=106.23865;
 		};
 		class Item5499
 		{
@@ -184396,7 +184394,7 @@ class Mission
 			};
 			id=14614;
 			type="Land_WavePowerPlant_F";
-			atlOffset=0.75317955;
+			atlOffset=0.7531786;
 		};
 		class Item6374
 		{
@@ -184441,7 +184439,7 @@ class Mission
 			};
 			id=14617;
 			type="Land_WavePowerPlant_F";
-			atlOffset=9.4447784;
+			atlOffset=9.4447775;
 		};
 		class Item6377
 		{
@@ -208350,6 +208348,17 @@ class Mission
 			colorName="ColorBlue";
 			id=16005;
 			atlOffset=19.767445;
+		};
+		class Item7439
+		{
+			dataType="Marker";
+			position[]={16481.375,0,9952.8379};
+			name="Rebelop_2";
+			type="mil_triangle";
+			colorName="ColorRed";
+			angle=259.94397;
+			id=16008;
+			atlOffset=-11.500891;
 		};
 	};
 };

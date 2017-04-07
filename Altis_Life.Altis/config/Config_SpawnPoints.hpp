@@ -41,7 +41,7 @@ class CfgSpawnPoints {
             };
 
             class RebelN {
-                displayName = "Morro do Zóio";
+                displayName = "Morro da Maré";
                 spawnMarker = "Rebelop";
                 icon = "\a3\ui_f\data\map\MapControl\bunker_ca.paa";
                 conditions = "license_civ_rebel";
@@ -55,7 +55,7 @@ class CfgSpawnPoints {
             };
 
             class RebelE {
-                displayName = "Morro do Comando";
+                displayName = "Morro do Chapadão";
                 spawnMarker = "Rebelop_2";
                 icon = "\a3\ui_f\data\map\MapControl\bunker_ca.paa";
                 conditions = "license_civ_rebel";
