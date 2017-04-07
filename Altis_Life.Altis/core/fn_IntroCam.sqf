@@ -46,21 +46,21 @@ _role2names = ["Brunno e Ramos"];
 _role3 = "Administradores do Servidor";
 _role3names = ["Brunno, Ramos, Pedro e Sawada"];
 _role4 = "Innovation";
-_role4names = ["Melhor Servidor de Altis Life"];
+_role4names = ["Um jeito diferente de Jogar Roleplay no Altis Life"];
 _role5 = "Desenvolvedores";
-_role5names = ["Ramos, Pedro, Jason e KoVaUvIsKe"];
+_role5names = ["Ramos, Pedro, Jason"];
 _role6 = "Hosted by";
-_role6names = ["ITECH3"];
+_role6names = ["Microsoft Servidores"];
 _role7 = "Respeite as Regras";
 _role7names = [""];
 _role8 = "Facebook:";
-_role8names = ["Innovation"];
+_role8names = ["facebook.com/innovation"];
 _role9 = "Principais Regras";
 _role9names = ["Não toleramos RDM, Atropelamentos (VDM)! Respeite os Administradores e a Equipe. Siga o RolePlay, você não está em um servidor de WasteLand !!!"];
 _role10 = "Atualizações";
 _role10names = ["Estamos constatemente atualizando o servidor, para que haja possibilidade de corrigir bugs e implementar atualizações. Se encontrar algum problema ou tiver sugestões, por favor nos procure."];
 _role11 = "Bom jogo a todos!";
-_role11names = ["A equipe Inovatilhe deseja uma excelente jogo!"];
+_role11names = ["A equipe Innovation deseja a você um excelente jogo!"];
 
 	{
 		sleep 2;
